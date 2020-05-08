@@ -230,7 +230,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -69.488556, y: 57.155273}
+  m_AnchoredPosition: {x: -69.48877, y: 57.155273}
   m_SizeDelta: {x: 138.97711, y: 114.31053}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5773048
@@ -934,50 +934,62 @@ MonoBehaviour:
   loader: {fileID: 161349097}
   loadInfos:
   - pieceSymbol: p1
+    pieceName: pawn
     piecePrefab: {fileID: 6908840875438221446, guid: 12162fdf2b7414cd2a5ed6272e22370f,
       type: 3}
     player: {fileID: 524453272}
   - pieceSymbol: p2
+    pieceName: pawn
     piecePrefab: {fileID: 6908840875438221446, guid: 12162fdf2b7414cd2a5ed6272e22370f,
       type: 3}
     player: {fileID: 2087010674}
   - pieceSymbol: b1
+    pieceName: bishop
     piecePrefab: {fileID: 897542682328036004, guid: cb5b2abeb899a4bd3ba42e9efc2e8a6a,
       type: 3}
     player: {fileID: 524453272}
   - pieceSymbol: b2
+    pieceName: bishop
     piecePrefab: {fileID: 897542682328036004, guid: cb5b2abeb899a4bd3ba42e9efc2e8a6a,
       type: 3}
     player: {fileID: 2087010674}
   - pieceSymbol: n1
+    pieceName: knight
     piecePrefab: {fileID: 4970463193270164335, guid: 1800356c719474fcc8214342d6262cea,
       type: 3}
     player: {fileID: 524453272}
   - pieceSymbol: n2
+    pieceName: knight
     piecePrefab: {fileID: 4970463193270164335, guid: 1800356c719474fcc8214342d6262cea,
       type: 3}
     player: {fileID: 2087010674}
   - pieceSymbol: l1
+    pieceName: luke
     piecePrefab: {fileID: 1668775445322731586, guid: 03d1ba703f9ae4dbca6edd742b091037,
       type: 3}
     player: {fileID: 524453272}
   - pieceSymbol: l2
+    pieceName: luke
     piecePrefab: {fileID: 1668775445322731586, guid: 03d1ba703f9ae4dbca6edd742b091037,
       type: 3}
     player: {fileID: 2087010674}
   - pieceSymbol: k1
+    pieceName: king
     piecePrefab: {fileID: 1692855995005579448, guid: ae17689b0ca4a4570b0889e0af0a538d,
       type: 3}
     player: {fileID: 524453272}
   - pieceSymbol: k2
+    pieceName: king
     piecePrefab: {fileID: 1692855995005579448, guid: ae17689b0ca4a4570b0889e0af0a538d,
       type: 3}
     player: {fileID: 2087010674}
   - pieceSymbol: q1
+    pieceName: queen
     piecePrefab: {fileID: 1266196415398537602, guid: e92c0f09200cd4913a7fbcee0c8218a8,
       type: 3}
     player: {fileID: 524453272}
   - pieceSymbol: q2
+    pieceName: queen
     piecePrefab: {fileID: 1266196415398537602, guid: e92c0f09200cd4913a7fbcee0c8218a8,
       type: 3}
     player: {fileID: 2087010674}

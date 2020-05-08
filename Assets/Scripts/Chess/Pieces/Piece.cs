@@ -10,6 +10,7 @@ namespace Chess.Pieces {
         ChessPlayer getOwner();
         T getAttribute<T>() where T : PieceAttribute;
         bool hasAttribute<T>() where T : PieceAttribute;
+        void addAttribute(PieceAttribute pieceAttribute);
         List<MoveInfo> getMoveInfos();
         void turnEndCheck(BoardVector currPos);
         void moveTo(Vector2 nextScreenPos);

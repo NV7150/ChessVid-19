@@ -68,6 +68,10 @@ namespace Chess.GameSystems {
             return _idPlayerDic[id];
         }
 
+        public GamePlayer getPlayerFromIndex(int index) {
+            return gamePlayers[index];
+        }
+
         public GamePlayer getFirstPlayer() {
             return gamePlayers[0];
         }

@@ -1,104 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac38314c-d045-444c-9239-5d3537c0febf" name="Default Changelist" comment="" />
+    <list default="true" id="ac38314c-d045-444c-9239-5d3537c0febf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ChesVid'19/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChesVid'19/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChesVid'19/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChesVid'19/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChesVid'19/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChesVid'19/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChesVid'19/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ChessScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ChessScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ResultScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ResultScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/ListBoardInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/ListBoardInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/GameInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/GameInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/SimpleChessMoveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/SimpleChessMoveSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/SimpleChessManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/SimpleChessManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Bishop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Bishop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/King.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/King.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Knight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Knight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Luke.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Luke.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Pawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Pawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Piece.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Piece.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/PieceBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/PieceBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Queen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Queen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/ResultVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/ResultVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SubclassSelectorAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/MoveInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Bishop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/ChessMoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CsvLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessManagerBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/SimpleChessManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/SimpleChessMoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/KnightCoVidAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/KingCoVidAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Luke.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Boards/BoardVector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/BoardVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/InfluenceInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/GameInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/QueenCoVidAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/GamePlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Knight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/LukeCoVidAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/SubclassSelectorDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7A62EF3B-49F1-4D16-B212-21B9B5A4792C/4F7/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/PawnCoVidAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/ResultVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/ChessVidMoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/TurnPlayerShower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Boards/Board.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Boards/BoardBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Pawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessVidManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Boards/BoardUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SubclassSelectorAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/Title.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/MoveInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/CoVidVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CsvLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessManagerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/CoVidAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/SimpleChessManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Boards/CoVidListBoardInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/SimpleChessMoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/BishopCoVidAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/CoVidPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Boards/BoardVector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ClickManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/KingAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/PawnAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameObjectInterface.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/PieceBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Boards/ListBoardInitializer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/GameInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/GamePlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/ModeVisual.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Piece.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Knight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/CoVidAttributeBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/BedVisuals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Editor/SubclassSelectorDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/StayHomeAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Boards/ListBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/King.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/PieceAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/ResultVisual.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/TurnPlayerShower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Boards/Board.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Boards/BoardBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Pawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/ChessMoveSystemBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Queen.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pieces/Attributes/PieceAttribute.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/PieceAttribute.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameObjectInterface.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/MoveSystems.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/SimpleMoveSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/MoveSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/ChessMoveSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/MoveInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Luke.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Queen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/BasicBoardStructure.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CSVLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SubclassSelectorAttribute.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CsvLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Bishop.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/BoardBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Structure/BasicStructure.csv" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/Board.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/BoardVisual.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Knight.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/BoardVector.cs" />
         <option value="$PROJECT_DIR$/Assets/Structure/TestStructure.csv" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/KingAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/GamePlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Piece.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/ListBoard.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/King.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/SubclassSelectorDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/ChessMoveSystemBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ClickManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/ResultVisual.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessManagerBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColorHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/TurnPlayerShower.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/SimpleChessManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/PieceBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Pawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/PawnAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessVidPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/Board.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/ChessVidMoveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Piece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/PawnAttribute1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Knight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Pawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Luke.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Bishop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/King.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Queen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/KnightCoVidAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/LukeCoVidAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/BishopCoVidAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/QueenCoVidAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/KingCoVidAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/ListBoardInitializer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/SimpleChessMoveSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/GameInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/CoVidListBoardInitializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/ModeVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/CoVidVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/BedVisuals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/PieceBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/CoVidAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/InfluenceInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/PawnCoVidAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/Title.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Visuals/ResultVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/CoVidPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/StayHomeAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Pieces/Attributes/CoVidAttributeBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/MoveSystem/SimpleChessMoveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/Boards/BoardUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/ChessVidManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chess/GameSystems/SimpleChessManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1bQlMJ7j30cIanrF8gyH1vaEKq8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -146,6 +206,11 @@
       <workItem from="1588648431876" duration="1101000" />
       <workItem from="1588650346031" duration="21285000" />
       <workItem from="1588684480614" duration="3445000" />
+      <workItem from="1588744999491" duration="1965000" />
+      <workItem from="1588748088098" duration="3984000" />
+      <workItem from="1588818698288" duration="13693000" />
+      <workItem from="1588846183344" duration="131000" />
+      <workItem from="1588850130240" duration="13969000" />
     </task>
     <servers />
   </component>
@@ -154,6 +219,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>

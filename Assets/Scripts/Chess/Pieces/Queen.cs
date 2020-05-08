@@ -5,20 +5,23 @@ using UnityEngine;
 
 namespace Chess.Pieces {
     public class Queen : PieceBase {
-        private readonly List<MoveInfo> _moveInfos = new List<MoveInfo>();
+        private static readonly List<MoveInfo> MOVE_INFOS = new List<MoveInfo>();
 
-        void initMoveInfo() {
+        static Queen() {
+            initMoveInfo();
+        }
+
+        static void initMoveInfo() {
+            if (MOVE_INFOS.Count > 0)
+                return;
+            
             for (int x = -1; x <= 1; x++) {
                 for (int y = -1; y <= 1; y++) {
                     if(x == 0 && y == 0)
                         continue;
-                    _moveInfos.Add(new MoveInfo(new BoardVector(x, y), 1, isEndless:true));
+                    MOVE_INFOS.Add(new MoveInfo(new BoardVector(x, y), 1, isEndless:true));
                 }
             }
-        }
-
-        private void Awake() {
-            initMoveInfo();
         }
 
         // Start is called before the first frame update
@@ -32,7 +35,7 @@ namespace Chess.Pieces {
         }
 
         public override List<MoveInfo> getMoveInfos() {
-            return new List<MoveInfo>(_moveInfos);
+            return new List<MoveInfo>(MOVE_INFOS);
         }
 
         public override void turnEndCheck(BoardVector currPos) {

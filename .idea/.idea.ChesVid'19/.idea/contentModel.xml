@@ -13,7 +13,9 @@
             <e p="Boards" t="Include">
               <e p="Board.cs" t="Include" />
               <e p="BoardBase.cs" t="Include" />
+              <e p="BoardUtil.cs" t="Include" />
               <e p="BoardVector.cs" t="Include" />
+              <e p="CoVidListBoardInitializer.cs" t="Include" />
               <e p="ListBoard.cs" t="Include" />
               <e p="ListBoardInitializer.cs" t="Include" />
             </e>
@@ -21,21 +23,34 @@
               <e p="ChessManager.cs" t="Include" />
               <e p="ChessManagerBase.cs" t="Include" />
               <e p="ChessPlayer.cs" t="Include" />
+              <e p="ChessVidManager.cs" t="Include" />
               <e p="ClickManager.cs" t="Include" />
+              <e p="CoVidPlayer.cs" t="Include" />
               <e p="GameInfo.cs" t="Include" />
               <e p="GamePlayer.cs" t="Include" />
               <e p="MoveSystem" t="Include">
                 <e p="ChessMoveSystem.cs" t="Include" />
                 <e p="ChessMoveSystemBase.cs" t="Include" />
+                <e p="ChessVidMoveSystem.cs" t="Include" />
                 <e p="SimpleChessMoveSystem.cs" t="Include" />
               </e>
               <e p="SimpleChessManager.cs" t="Include" />
             </e>
             <e p="Pieces" t="Include">
               <e p="Attributes" t="Include">
+                <e p="BishopCoVidAttribute.cs" t="Include" />
+                <e p="CoVidAttribute.cs" t="Include" />
+                <e p="CoVidAttributeBase.cs" t="Include" />
+                <e p="InfluenceInfo.cs" t="Include" />
                 <e p="KingAttribute.cs" t="Include" />
+                <e p="KingCoVidAttribute.cs" t="Include" />
+                <e p="KnightCoVidAttribute.cs" t="Include" />
+                <e p="LukeCoVidAttribute.cs" t="Include" />
                 <e p="PawnAttribute.cs" t="Include" />
+                <e p="PawnCoVidAttribute.cs" t="Include" />
                 <e p="PieceAttribute.cs" t="Include" />
+                <e p="QueenCoVidAttribute.cs" t="Include" />
+                <e p="StayHomeAttribute.cs" t="Include" />
               </e>
               <e p="Bishop.cs" t="Include" />
               <e p="King.cs" t="Include" />
@@ -48,8 +63,12 @@
               <e p="Queen.cs" t="Include" />
             </e>
             <e p="Visuals" t="Include">
+              <e p="BedVisuals.cs" t="Include" />
               <e p="BoardVisual.cs" t="Include" />
+              <e p="CoVidVisual.cs" t="Include" />
+              <e p="ModeVisual.cs" t="Include" />
               <e p="ResultVisual.cs" t="Include" />
+              <e p="Title.cs" t="Include" />
               <e p="TurnPlayerShower.cs" t="Include" />
             </e>
           </e>

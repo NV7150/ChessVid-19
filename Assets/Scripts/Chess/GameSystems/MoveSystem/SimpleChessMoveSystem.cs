@@ -22,19 +22,8 @@ namespace Chess.GameSystems.MoveSystem {
             var moveInfos = piece.getMoveInfos();
             var movable = new List<BoardVector>();
             var id = piece.getOwner().getId();
+            var frontDir = info.getPlayer(piece.getOwner().getId()).FrontDirection;
             
-            foreach (var moveInfo in moveInfos) {
-                var dir = BoardVector.rotateTo(moveInfo.Direction, info.getPlayer(id).FrontDirection);
-
-                if (moveInfo.IsEndless) {
-                    var goingPos = searchForEndless(id, piecePos, dir, board, moveInfo.IsJump);
-                    movable.AddRange(goingPos);
-                } else {
-                    if(canPassFrom(id, piecePos, piecePos + dir, board, moveInfo.IsJump))
-                        movable.Add(piecePos + dir);
-                }
-            }
-
             if (piece.hasAttribute<PawnAttribute>()) {
                 var pawnAttr = piece.getAttribute<PawnAttribute>();
                 for (int i = -1; i <= 1; i += 2) {
@@ -43,9 +32,24 @@ namespace Chess.GameSystems.MoveSystem {
 
                 if (pawnAttr.canMoveTwice(piecePos)) {
                     var movePos = piecePos + info.getPlayer(id).FrontDirection * 2;
-                    if (board.getStatus(id, movePos) == SquareStatus.FREE) {
+                    var canPass = canPassFrom(id, piecePos, movePos, board);
+                    if (canPass && board.getStatus(id, movePos) == SquareStatus.FREE) {
                         movable.Add(movePos);
                     }
+                }
+
+                foreach (var moveInfo in moveInfos) {
+                    var movablePoses = getInfoPos(moveInfo, frontDir, piecePos, board, id);
+                    foreach (var pos in movablePoses) {
+                        if (board.getStatus(id, pos) == SquareStatus.FREE) {
+                            movable.Add(pos);
+                        }
+                    }
+                }
+                
+            } else {
+                foreach (var moveInfo in moveInfos) {
+                    movable.AddRange(getInfoPos(moveInfo, frontDir, piecePos, board, id));
                 }
             }
 

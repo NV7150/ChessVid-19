@@ -6,16 +6,21 @@ using UnityEngine;
 
 namespace Chess.Pieces {
     public class Pawn : PieceBase {
-        private readonly List<MoveInfo> _moveInfos = new List<MoveInfo>();
+        private static readonly List<MoveInfo> MOVE_INFOS = new List<MoveInfo>();
 
-        void initMoveInfo() {
-            _moveInfos.Add(new MoveInfo(new BoardVector(0, 1), 1));
-            addAttribute(new PawnAttribute());
+        static Pawn() {
+            initMoveInfo();
+        }
+        
+        static void initMoveInfo() {
+            if (MOVE_INFOS.Count > 0)
+                return;
+            MOVE_INFOS.Add(new MoveInfo(new BoardVector(0, 1), 1));
         }
 
         protected override void initPiece() {
             base.initPiece();
-            initMoveInfo();
+            addAttribute(new PawnAttribute());
         }
 
         // Start is called before the first frame update
@@ -29,7 +34,7 @@ namespace Chess.Pieces {
         }
 
         public override List<MoveInfo> getMoveInfos() {
-            return new List<MoveInfo>(_moveInfos);
+            return new List<MoveInfo>(MOVE_INFOS);
         }
 
         public override void turnEndCheck(BoardVector currPos) {

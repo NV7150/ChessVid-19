@@ -6,22 +6,25 @@ using UnityEngine;
 
 namespace Chess.Pieces {
     public class Knight : PieceBase {
-        private readonly List<MoveInfo> _moveInfos = new List<MoveInfo>();
+        private static readonly List<MoveInfo> MOVE_INFOS = new List<MoveInfo>();
 
-        void initMoveInfo() {
+        static Knight() {
+            initMoveInfo();
+        }
+
+        static void initMoveInfo() {
+            if (MOVE_INFOS.Count > 0)
+                return;
+            
             for (int i = 0; i <= 1; i++) {
                 for (int front = -2; front <= 2; front += 4) {
                     for (int side = -1; side <= 1; side += 2) {
                         var x = (i == 0) ? front : side;
                         var y = (i != 0) ? front : side;
-                        _moveInfos.Add(new MoveInfo(new BoardVector(x, y), 1, isJump: true));
+                        MOVE_INFOS.Add(new MoveInfo(new BoardVector(x, y), 1, isJump: true));
                     }
                 }
             }
-        }
-
-        private void Awake() {
-            initMoveInfo();
         }
 
         // Start is called before the first frame update
@@ -35,7 +38,7 @@ namespace Chess.Pieces {
         }
 
         public override List<MoveInfo> getMoveInfos() {
-            return new List<MoveInfo>(_moveInfos);
+            return new List<MoveInfo>(MOVE_INFOS);
         }
 
         public override void turnEndCheck(BoardVector currPos) {

@@ -27,51 +27,86 @@ namespace Chess.GameSystems {
         private List<BoardVector> _currentMovePoints;
         private BoardVector _selectingPos;
 
+        private bool _staleMate = false;
+
+        public GameInfo Info => info;
+
+        protected BoardVisual BoardVisual => boardVisual;
+
         public override void placeSelected(BoardVector pos) {
             if (_gamePlayer == null)
                 _gamePlayer = info.getFirstPlayer();
             
             switch (_currentMode) {
                 case ScmMode.SHOW_MOVE_POINT:
-                    showMovePoint(pos);
+                    checkStaleMate();
+                    if(showMovePoint(pos)) 
+                        _currentMode = ScmMode.SELECT_MOVE_POINT;
                     break;
                 case ScmMode.SELECT_MOVE_POINT:
-                    selectMovePoint(pos);
+                    if (selectMovePoint(pos)) {
+                        _currentMode = ScmMode.SHOW_MOVE_POINT;
+                        updateTurn();
+                    } 
+
                     break;
             }
         }
+        
+        protected void checkStaleMate() {
+            _staleMate = true;
+            var posFuncs = new List<BoardUtil.PosFunc>(){checkPos};
+            BoardUtil.functionToEachPos(posFuncs, Info.Board);
+            if (_staleMate) {
+                endGame(true);
+            }
+        }
 
-        void showMovePoint(BoardVector pos) {
+        bool checkPos(BoardVector pos) {
+            var piece = Info.Board.getPiece(pos);
+            if (piece == null || piece.getOwner().getId() != getCurrentPlayer().getId()) {
+                return false;
+            }
+
+            if (chessMoveSystem.getMovablePos(info, pos).Count > 0) {
+                _staleMate = false;
+                return true;
+            }
+
+            return false;
+        }
+
+        protected bool showMovePoint(BoardVector pos) {
             var board = info.Board;
             var piece = board.getPiece(pos);
 
             if (piece == null || piece.getOwner().getId() != _gamePlayer.getId()) {
-                return;
+                return false;
             }
 
             var movable = chessMoveSystem.getMovablePos(info, pos);
             if (movable.Count == 0) {
-                return;
+                return false;
             }
 
-            _currentMode = ScmMode.SELECT_MOVE_POINT;
             _currentMovePoints = movable;
             _selectingPos = pos;
             
             boardVisual.reset();
             boardVisual.highLightAll(_currentMovePoints);
+            return true;
         }
 
-        void selectMovePoint(BoardVector pos) {
+        protected bool selectMovePoint(BoardVector pos) {
             if (!_currentMovePoints.Contains(pos))
-                return;
+                return false;
             
             info.Board.movePiece(_selectingPos, pos);
             cancelMove();
-            updateTurn();
+            return true;
         }
 
-        public void cancelMove() {
+        public virtual void cancelMove() {
             if (_currentMode == ScmMode.SHOW_MOVE_POINT)
                 return;
             
@@ -88,14 +123,24 @@ namespace Chess.GameSystems {
                 _gamePlayer = info.getNextPlayer(ref turnEnd);
                 if (turnEnd) {
                     _turn++;
+                    turnEnded();
                 }
             }
         }
 
-        void endGame() {
+        protected virtual void turnEnded() {
+            
+        }
+
+        protected void endGame(bool staleMate = false) {
             bool dummy = false;
             var winner = info.getNextPlayer(ref dummy);
-            ResultVisual.WinnerId = winner.getId();
+            if (winner != null && !staleMate) {
+                ResultVisual.WinnerId = winner.getId();
+                ResultVisual.Draw = false;
+            } else {
+                ResultVisual.Draw = true;
+            }
             SceneManager.LoadScene(resultSceneName);
         }
 

@@ -15,13 +15,14 @@ namespace Chess.Pieces {
             initPiece();
         }
         
-        protected void addAttribute(PieceAttribute attribute ){
+        public void addAttribute(PieceAttribute attribute ){
             _pieceAttributes.Add(attribute);
         }
 
         protected virtual void initPiece() {
             
         }
+        
         // Start is called before the first frame update
         void Start() {
         

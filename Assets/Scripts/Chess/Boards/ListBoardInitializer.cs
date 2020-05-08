@@ -46,12 +46,7 @@ namespace Chess.Boards {
                     }
 
                     var loadInfo = _loadInfoDic[symbol];
-                    var obj = Instantiate(loadInfo.PiecePrefab, canvas, true);
-                    var piece = obj.GetComponent<PieceBase>();
-                    piece.initializePiece(loadInfo.Player);
-                    piece.moveTo(listBoard.getStartScreenPos(), listBoard.getSquareScale(), new BoardVector(x, y), 1);
-                    obj.GetComponent<Image>().color = loadInfo.Player.PlayerColor;
-                    loadInfo.Player.setPieceNum(loadInfo.Player.getPieceNum() + 1);
+                    var piece = initPiece(loadInfo, x, y);
 
                     if (piece.hasAttribute<PawnAttribute>()) {
                         piece.getAttribute<PawnAttribute>().setStartPos(new BoardVector(x, y));
@@ -67,11 +62,28 @@ namespace Chess.Boards {
             
             listBoard.initializeBoard(pieceList);
         }
+        
+        protected virtual Piece initPiece(PieceLoadInfo loadInfo, int x, int y){
+            var obj = Instantiate(loadInfo.PiecePrefab, canvas, true);
+            var piece = obj.GetComponent<PieceBase>();
+            piece.initializePiece(loadInfo.Player);
+            piece.moveTo(listBoard.getStartScreenPos(), listBoard.getSquareScale(), new BoardVector(x, y), 1);
+            obj.GetComponent<Image>().color = loadInfo.Player.PlayerColor;
+            loadInfo.Player.setPieceNum(loadInfo.Player.getPieceNum() + 1);
+
+            if (piece.hasAttribute<PawnAttribute>()) {
+                piece.getAttribute<PawnAttribute>().setStartPos(new BoardVector(x, y));
+            }
+
+            return piece;
+        }
     }
+    
 
     [Serializable]
     public class PieceLoadInfo {
         [SerializeField] private string pieceSymbol;
+        [SerializeField] private string pieceName;
         [SerializeField] private GameObject piecePrefab;
         [SerializeField] private GamePlayer player;
 
@@ -80,5 +92,7 @@ namespace Chess.Boards {
         public GameObject PiecePrefab => piecePrefab;
 
         public GamePlayer Player => player;
+
+        public string PieceName => pieceName;
     }
 }
